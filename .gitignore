@@ -1,0 +1,9 @@
+.DS_Store
+results
+*~
+.ipynb_checkpoints
+saved_networks
+*.out
+build
+__pycache__
+*.pyc
