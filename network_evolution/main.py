@@ -16,12 +16,8 @@ import os
 import pickle
 import argparse
 
-
-# import matplotlib.pyplot as plt
-# import seaborn as sns
-
 # Call functions to generate matrices and for easy updates..
-sys.path.append("../classes")
+sys.path.append("../Classes")
 from HomGraph import *
 from SFGraph import *
 from Graph import *
@@ -34,6 +30,8 @@ def compare_in_out_mat(original_mats, networks_matrix):
     """
     Fn to investigate distributions after learning
     """
+    import matplotlib.pyplot as plt
+    import seaborn as sns
     for index, mat in enumerate(original_mats):
         in_deg = get_in_degree(mat)
         sns.distplot(
@@ -241,7 +239,7 @@ if __name__ == "__main__":
                         --resonance_period [4] --prob_perturb [0] --constant_hub [0] --generations [5000]
                         --switch_time [-1] [--steretyped]
 
-                    python3 main.py --timestamp badtime --n 500 --time 1000 \
+                    python3 main.py --timestamp 20170110 --n 500 --time 1000 \
                         --pop_size 50 --replicates 3 --network_type 1 \
                         --control_param 1.9 --simulation_type 4 \
                         --target_lengths 2 4 6 --target_node -1 --periods 2 4 6 \

@@ -1,0 +1,11 @@
+name: resonant-learning
+channels:
+- conda-forge
+dependencies:
+- python=3.8.*
+- matplotlib=3.4.*
+- pip=21.2.*
+- ipykernel=6.0.*
+- nb_conda_kernels=2.3.*
+- seaborn=0.11.*
+- networkx

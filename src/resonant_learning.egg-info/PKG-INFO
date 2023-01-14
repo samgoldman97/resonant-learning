@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: resonant-learning
+Version: -version.number-.0.0.1
+Summary: Resonant learning in scale free networks
+Home-page: UNKNOWN
+Author: Samuel Goldman
+License: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: dev
+
+# Resonant Learning
+
+This github repository contains code for the paper, written as part of a Harvard Undergraduate Senior Thesis in Computer Science:
+[Resonant Learning in Scale-free Networks](https://www.biorxiv.org/content/10.1101/2021.11.10.468065v1.full.pdf)
+
+## Setup
+
+To install the enviornment
+
+```
+conda env create -f enviornment.yml
+pip install -r requirements.txt
+python setup.py develop
+```
+
+## Experiments
+
+
+
+## Citation
+
+If you use any component of this repository, please cite the following:
+
+```
+Goldman, Samuel, Maximino Aldana, and Philippe Cluzel. "Resonant Learning in Scale-free Networks." bioRxiv (2021).
+```
+
+

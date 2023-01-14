@@ -12,7 +12,7 @@
 
 #Example usage:
 # $sbatch --array=1-3 odyssey_scripts/run_jobs.sh
-# then run consolidate.sh through sbash
+# then run consolidate.sh through sbash!
 
 # Load appropriate modules
 module load gcc/7.1.0-fasrc01

@@ -17,7 +17,7 @@
 import sys
 import os
 
-sys.path.append("../classes")
+sys.path.append("../Classes")
 from HomGraph import *
 from SFGraph import *
 from sighelp import *

@@ -70,7 +70,7 @@ void net_to_mat(network* net, double* mat);
 
 /* 
  * Mutate the network
- * TODO: Add support for actually switching around edges..
+ *
  * 
  */
 network* mutate_network(network* old_net, int record_changes);

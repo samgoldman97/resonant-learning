@@ -254,7 +254,6 @@ network* mutate_network(network* old_net, int record_changes){
             int new_target; 
             int was_found; 
             int attempts_limit = 10; 
-            // TODO: Change mutation attempts... 
             while (!mutate_success && mutation_attempts < attempts_limit ){
                 new_target = rand_int_range(0, n); 
                 // Make sure that this new random target 
